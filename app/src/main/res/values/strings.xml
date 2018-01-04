@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PROG3210_Final</string>
+    <string name="placeholder">PLACEHOLDER</string>
+
+    <!-- Labels -->
+    <string name="lblLoginHeader">Login</string>
+    <string name="lblForgotPasswordHeader">Reset Password</string>
+    <string name="lblSignUpHeader">Sign Up</string>
+    <string name="lblWelcomeMessage">Welcome!\nLets get messaging</string>
+
+    <string name="lblPassword">Password:</string>
+    <string name="lblForgotPassword">Forgot your password?</string>
+    <string name="lblSignUpDirection">(Swipe left to sign up)</string>
+    <string name="lblCreateAccount">Don\'t have an account?</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblFirstName">First Name</string>
+    <string name="lblLastName">Last Name</string>
+    <string name="lblBirthDate">Birth Date</string>
+    <string name="lblConversationHeader">Conversations</string>
+    <string name="lblCreateConversationHeader">Create Conversation</string>
+    <string name="lblCreateConversationSubHeader">Select some users that you want to chat with.</string>
+    <string name="lblConversationInfoHeader">Conversation Info</string>
+    <string name="lblContactUs">Contact Us</string>
+
+    <!-- Inputs -->
+    <string name="btnLogin">Login</string>
+    <string name="btnWelcome">Lets Get Started</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="btnChangePassword">Change</string>
+    <string name="btnOk">OK</string>
+    <string name="btnReset">Reset</string>
+    <string name="btnBack">Go Back</string>
+    <string name="btnCreateConversation">Create</string>
+    <string name="btnEmail">Email</string>
+    <string name="btnPhone">Phone</string>
+
+    <!-- Content Descriptions -->
+    <string name="descBackButton">Back Button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cdickie2309.prog3210_final.ConversationListActivity">
+
+    <TextView
+        android:id="@+id/lblConversationHeader"
+        style="@style/CenteredLblHeader"
+        android:text="@string/lblConversationHeader"
+        android:textSize="30sp"
+        android:textColor="@color/colorTextA"/>
+
+    <ListView
+        android:id="@+id/lstConversations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblConversationHeader"/>
+
+    <Button
+        android:id="@+id/btnCreateConversation"
+        style="@style/AddButton" />
+</RelativeLayout>

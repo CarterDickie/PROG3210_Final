@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bright layout -->
+    <color name="colorTextA">#3d495e</color>
+    <color name="colorBackgroundA">#ffffff</color>
+    <color name="colorPrimaryA">#819bc6</color>
+    <color name="colorPrimaryDarkA">#3d495e</color>
+    <color name="colorTextDullA">#95add6</color>
+    <color name="colorAccentA">#96fdff</color>
+    <color name="colorErrorA">#ea6438</color>
+
+    <!-- Dark layout -->
+    <color name="colorTextB">#ffffff</color>
+    <color name="colorBackgroundB">#429ded</color>
+    <color name="colorPrimaryB">#ffffff</color>
+    <color name="colorPrimaryDarkB">#ffffff</color>
+    <color name="colorTextDullB">#ffffff</color>
+    <color name="colorAccentB">#00ffed</color>
+    <color name="colorErrorB">#ffaa7c</color>
+</resources>

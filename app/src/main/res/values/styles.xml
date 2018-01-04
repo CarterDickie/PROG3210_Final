@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryA</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkA</item>
+        <item name="colorAccent">@color/colorAccentB</item>
+    </style>
+
+    <style name="GeneralTextFoundation">
+        <!--TODO<item name="android:typeface"></item>-->
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorTextB</item>
+    </style>
+
+    <style name="BoldTextFoundation" parent="@style/GeneralTextFoundation">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PlainText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/colorAccentB</item>
+    </style>
+
+    <style name="DullText" parent="@style/PlainText">
+        <item name="android:textColor">@color/colorTextDullB</item>
+    </style>
+
+    <style name="ErrorText" parent="@style/PlainText">
+        <item name="android:textColor">@color/colorErrorB</item>
+    </style>
+
+    <style name="CenteredLbl" parent="@style/GeneralTextFoundation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CenteredLblHeader" parent="@style/BoldTextFoundation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textSize">45sp</item>
+
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FloatingLbl" parent="@style/BoldTextFoundation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CenteredInput" parent="@style/BoldTextFoundation">
+        <!--TODO Change this. Would like to not have hard coded values -->
+        <item name="android:layout_width">300sp</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_marginBottom">20sp</item>
+    </style>
+
+    <style name="ErrorUnderInput" parent="@style/ErrorText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="CenteredButton" parent="@style/BoldTextFoundation">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:background">@drawable/rounded_button</item>
+
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingTop">20sp</item>
+        <item name="android:paddingBottom">20sp</item>
+    </style>
+
+    <style name="BackButton" parent="@style/BoldTextFoundation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:background">@null</item>
+
+        <item name="android:layout_gravity">left</item>
+        <item name="android:padding">10sp</item>
+    </style>
+
+    <style name="ListViewHeader" parent="@style/BoldTextFoundation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/colorTextA</item>
+
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="ListViewBody" parent="@style/GeneralTextFoundation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/colorTextDullA</item>
+
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="AddButton" parent="BoldTextFoundation">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+
+        <item name="android:text">+</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

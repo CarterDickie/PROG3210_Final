@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundB"
+    tools:context="com.example.cdickie2309.prog3210_final.ContactUsActivity">
+
+    <TextView
+        android:id="@+id/lblContactUs"
+        style="@style/CenteredLblHeader"
+        android:text="@string/lblContactUs" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        style="@style/CenteredButton"
+        android:layout_below="@+id/lblContactUs"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnEmail" />
+
+    <Button
+        android:id="@+id/btnPhone"
+        style="@style/CenteredButton"
+        android:layout_below="@+id/btnEmail"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnPhone" />
+
+</RelativeLayout>
